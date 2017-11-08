@@ -57,7 +57,7 @@
                 Member
               </th>
               <th colspan="3">
-                ?
+                {{ $kamar->member }}
               </th>
             </tr>
           </thead>

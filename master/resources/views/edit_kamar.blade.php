@@ -20,6 +20,10 @@
                   <input type="text" value="{{ $kamar->nama }}" name="nama" class="form-control" placeholder="Nama kamar">
                 </div>
                 <div class="form-group">
+              <label for="exampleInputEmail1">Member</label>
+              <input type="text" name="member" class="form-control" placeholder="Member">
+            </div>
+                <div class="form-group">
                   <label for="exampleInputPassword1">Kode</label>
                   <input type="text" value="{{ $kamar->kode }}" name="kode" class="form-control" placeholder="Kode kamar">
                 </div>
